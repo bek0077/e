@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #fffaf5;
+  color: #333;
+}
+
+.hero {
+  display: flex;
+  background: #fddbb4;
+  padding: 50px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #1a936f;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero-image img {
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.collection {
+  text-align: center;
+  padding: 50px 20px;
+  background: white;
+}
+
+.collection h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.product {
+  max-width: 250px;
+  text-align: center;
+}
+
+.product img {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #fddbb4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.footer-logo {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.footer-nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.socials a img {
+  width: 20px;
+  margin-left: 10px;
+}
